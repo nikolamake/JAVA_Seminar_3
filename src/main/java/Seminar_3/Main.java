@@ -8,8 +8,8 @@ import com.google.common.math.Stats;
 
 public class Main {
     public static void main(String[] args) {
-        arrayRandom(25, 15);
-//        minMaxAverage(12, 25);
+//        arrayRandom(25, 15);
+        minMaxAverage(12, 25);
     }
 
 //1. Пусть дан произвольный список целых чисел,
