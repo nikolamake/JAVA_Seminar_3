@@ -1,23 +1,18 @@
 package Seminar_4;
 
-import jdk.internal.net.http.LineSubscriberAdapter;
-import sun.tools.jconsole.Messages;
 
-import java.io.*;
+
+
 import java.util.*;
-import java.util.Collections;
+
 import java.util.LinkedList;
 import java.util.Scanner;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.stream.Stream;
 
-import static jdk.internal.org.jline.utils.Colors.s;
 
 public class Main {
     public static void main(String[] args) {
-//        ex1();
-        ListRandom(11,25);
+        ex1();
+//        ListRandom(11,25);
     }
 
     //    Реализовать консольное приложение, которое:
@@ -31,6 +26,9 @@ public class Main {
         while (true) {
             System.out.print("Введите строку: ");
             String word;
+//            if ((word = scanner.nextLine()).equals("revert")){
+//                stringList.pollLast();
+//            }
             if ((word = scanner.nextLine()).equals("print")) {
                 String firstNumber = stringList.removeFirst();
                 String lastNumber = stringList.removeLast();
